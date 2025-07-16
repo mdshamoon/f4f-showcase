@@ -2,21 +2,24 @@
 
 An innovative Next.js application showcasing the complete Farmers for Forest workflow through interactive 3D visualizations using Three.js.
 
+🌐 **Live Demo**: [View on GitHub Pages](https://[your-username].github.io/showcase)
+
 ## 🌟 Features
 
-### 7 Interactive 3D Scenes
+### 8 Interactive 3D Scenes
 
-1. **Land Verification** - Google Earth-style satellite analysis for 10-year barren land verification
-2. **Token System** - Visual representation of the ₹8000 investment and 4-year return cycle
-3. **Resource Provision** - 3D visualization of drip irrigation systems and sapling distribution
-4. **Income Streams** - Interactive charts showing carbon credits and fruit harvesting revenue
-5. **KML Geocoding** - Precise geographic coordinate mapping and spatial analysis
-6. **Drone Monitoring** - Animated flight paths and aerial data collection visualization
-7. **ML Tree Detection** - AI-powered tree counting and carbon sequestration analysis
+1. **Farmer Outreach** - F4F representative connections and scheme introduction
+2. **Geocoding** - KML-based geographic coordinate mapping and spatial analysis  
+3. **Land Verification** - Google Earth-style satellite analysis for 10-year barren land verification
+4. **Token System** - Visual representation of the ₹8000 investment and 4-year return cycle
+5. **Resource Provision** - 3D visualization of drip irrigation systems and sapling distribution
+6. **Income Streams** - Interactive charts showing carbon credits and fruit harvesting revenue
+7. **Drone Monitoring** - Animated flight paths and aerial data collection visualization
+8. **ML Tree Detection** - AI-powered tree counting and carbon sequestration analysis
 
 ## 🚀 Technology Stack
 
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js 14 with App Router (Static Export)
 - **Language**: TypeScript
 - **3D Graphics**: Three.js with React Three Fiber
 - **UI Components**: React Three Drei
@@ -35,6 +38,22 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 🌐 Deployment
+
+This project is configured for automatic deployment to GitHub Pages:
+
+### Automatic Deployment
+1. Enable GitHub Pages in your repository (Settings → Pages → Source: GitHub Actions)
+2. Push to the main branch - deployment happens automatically via GitHub Actions
+3. Your site will be available at: `https://[username].github.io/[repository-name]`
+
+### Manual Build
+```bash
+npm run build  # Generates static files in 'dist' directory
+```
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 ## 📱 Usage
 
