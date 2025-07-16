@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Farmers for Forest - 3D Visualization Showcase
 
-## Getting Started
+An innovative Next.js application showcasing the complete Farmers for Forest workflow through interactive 3D visualizations using Three.js.
 
-First, run the development server:
+## 🌟 Features
+
+### 7 Interactive 3D Scenes
+
+1. **Land Verification** - Google Earth-style satellite analysis for 10-year barren land verification
+2. **Token System** - Visual representation of the ₹8000 investment and 4-year return cycle
+3. **Resource Provision** - 3D visualization of drip irrigation systems and sapling distribution
+4. **Income Streams** - Interactive charts showing carbon credits and fruit harvesting revenue
+5. **KML Geocoding** - Precise geographic coordinate mapping and spatial analysis
+6. **Drone Monitoring** - Animated flight paths and aerial data collection visualization
+7. **ML Tree Detection** - AI-powered tree counting and carbon sequestration analysis
+
+## 🚀 Technology Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **3D Graphics**: Three.js with React Three Fiber
+- **UI Components**: React Three Drei
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## 🛠️ Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Navigate through different process stages using the top navigation bar
+2. Interact with 3D scenes using mouse/touch controls:
+   - **Rotate**: Left click + drag
+   - **Zoom**: Mouse wheel or pinch
+   - **Pan**: Right click + drag
+3. View detailed process information in the left sidebar
+4. Each scene automatically animates to demonstrate the respective process
 
-## Learn More
+## 🌱 Farmers for Forest Process Overview
 
-To learn more about Next.js, take a look at the following resources:
+### 1. Land Verification
+- Satellite imagery analysis spanning 10 years
+- Verification of barren land status
+- Environmental impact assessment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Token Investment System
+- Initial farmer investment: ₹8,000
+- Annual returns: ₹2,000 for 4 years
+- 100% ROI over the investment period
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Resource Provision
+- Distribution of drip irrigation materials
+- Sapling provision (500+ saplings per plot)
+- Species selection for optimal carbon sequestration
 
-## Deploy on Vercel
+### 4. Income Generation
+- **Carbon Credits**: ₹15,000/year average
+- **Fruit Harvesting**: ₹8,000/year average
+- **Total Annual Income**: ₹23,000+
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 5. Precise Geocoding
+- KML file creation for boundary mapping
+- GPS accuracy within ±1 meter
+- Digital elevation model integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 6. Drone Monitoring
+- Annual aerial surveillance
+- High-resolution ortho image capture (2cm/pixel)
+- 120m flight height for optimal coverage
+
+### 7. ML Tree Detection
+- AWS SageMaker-powered analysis
+- 94%+ accuracy in tree identification
+- Real-time carbon sequestration calculation
+
+## 📊 Key Metrics
+
+- **Plot Size**: 2.5 acres average
+- **Tree Survival Rate**: 95%
+- **Carbon Sequestration**: 12.5+ tons/year
+- **GPS Accuracy**: ±1 meter
+- **Image Resolution**: 2cm/pixel
+- **ML Detection Accuracy**: 94%
+
+## 🎯 Project Goals
+
+This visualization aims to:
+- Demonstrate the complete F4F workflow in an engaging manner
+- Educate stakeholders about sustainable forestry practices
+- Showcase the technology integration in modern agriculture
+- Highlight the economic and environmental benefits
+
+## 🔧 Development
+
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Run linting
+npm run lint
+```
+
+## 📄 License
+
+This project is developed for Farmers for Forest initiative.
+
+---
+
+Built with ❤️ for sustainable forestry and farmer empowerment
